@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.npm-logo {
+    width: 60px;
+    margin-right:1em
+}
+
+.magnifying-glass{
+    background-color:rgba(232, 217, 217, 0,3);
+    height: 40px;
+    width: 80%display:flex;
+    align-items: center;
+}
+
+/*hier weiter machen*/
+
+.searchbar {
+  background-color: rgba(232, 217, 217, 0.3);
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar input {
+  width: 85%;
+  flex: 1;
+  border: none;
+  background-color: rgba(232, 217, 217, 0.3);  
+}
+
+.searchbar button {
+  background-color: #fb3b49;
+  border: none;
+  color: white;
+  padding:10px 40px;
+  font-weight: 500;
+  cursor: pointer;   
+}
+/*buttons join and login*/
+.link-join{  
+  padding: 5px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(121, 115, 115);
+  text-decoration: none;
+  color: black;
+  cursor: pointer;}
+
+.link-login{
+  text-decoration: none;
+  color: rgb(121, 115, 115);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+/*section top*/
+#top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  background-color: rgba(232, 217, 217, 0.3);
+  align-items: center;
+}
+
+#top h1{
+  font-size:4em;
+  font-weight:bold;
+}
+
+.article-top{
+  width: 40%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.top-p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.see-plan{
+  background-color: #fb3b49;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 20%);
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.join-for-free{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/*section middle*/
+#middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  align-items: center;
+}   
+
+#middle img {
+  height: 150px;
+}
+
+#middle div {
+  display: block;
+}
+
+#middle h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#middle article {
+  width: 40%;
+  text-align: center;
+  font-size: 0.8em;
+  display: block;
+}
+
+/*bottom*/
+#bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+  gap: 5%;
+}
+
+#bottom div {
+  width: 20%;
+  margin-bottom: 50px;
+  display: block;
+}
+
+#bottom img {
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+#bottom h3 {
+  color: #ed1c24;
+  padding-bottom: 20px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#bottom p {
+  font-size: 0.8em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#bottom a {
+  background-color: #000;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35,.2);
+  color: white;
+  text-decoration: none;
+  padding: 10px 80px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
